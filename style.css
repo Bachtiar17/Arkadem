@@ -1,0 +1,158 @@
+html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: url(gambar/home1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block;
+}
+
+.header{
+  text-align: center;
+  position: absolute;
+  top: 38%;
+  left: 51%;
+  transform: translate(-50% ,-50%);
+}
+@media screen and (max-width: 600px) {
+.header {
+  position: absolute;
+  top: 30%;
+  left: 51%;
+  }
+}
+.header h1{
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Pacifico';
+  font-size: 10px;
+  font-weight: lighter;
+  
+}
+.header span{
+  color: #fcb371;
+  text-align: center;
+}
+.tagline{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  top: 60%;
+  left: 52%;
+}
+.tagline p{
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color:  #FFFFFF;
+}
+@media screen and (max-width: 600px) {
+.tagline {
+  position: absolute;
+  top: 40%;
+  left: 51%;
+  }
+}
+.down{
+  position: absolute;
+  top: 60px;
+  left:44%;
+  #transform: translate(-20%,-20%);
+  width: 30%;
+  height: 30%;
+}
+.down img{
+  width: 53%;
+}
+@media screen and (max-width: 600px) {
+.down{
+  position: absolute;
+  top: 100px;
+  left:42%;
+  #transform: translate(-20%,-20%);
+  width: 30%;
+  height: 30%;
+}
+.down img{
+  width: 70%;
+  }
+}
+
+.button {
+  background: rgba(0,0,0,0.2);
+  color:  #fcb371;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  font-family: 'Pacifico';
+  transition: 1s;
+  border-color:#fcb371;
+  border: 2px solid #fcb371;
+}
+a {
+  color:  #fcb371;
+  transition: 1s;
+}
+a:link {
+  text-decoration: none; 
+}
+a:hover {
+  color: white;
+}
+.button:hover {
+  background-color: #fcb371;
+  color: white;
+  }
+ @media screen and (max-width: 600px) {
+.button {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  padding: 4px 20px;
+  }
+}
+.button1 {
+  background: rgba(0,0,0,0.2);
+  color:  #fcb371;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: absolute;
+  top: 65%;
+  left: 52%;
+  font-family: 'Pacifico';
+  transition: 1s;
+  border-color:#fcb371;
+  border: 2px solid #fcb371;
+}
+.button1:hover {
+  background-color: #fcb371;
+  color: white;
+  }
+@media screen and (max-width: 600px) {
+.button1{
+  position: absolute;
+  top: 40%;
+  left: 53%;
+  padding: 4px 20px;
+  }
+}
